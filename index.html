@@ -1,10 +1,59 @@
 <html>
-  <head>
-    <title>this is epic sauce</title>
-  </head>
+    <head>
+        <title>this is epic sauce</title>
+
+        <style>
+            h1,a{
+                text-align: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+
+            img{
+                width: 500px;
+                
+            }
+
+            button:active {
+                animation: spin 0.5s linear forwards;
+            }
+
+            div{
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+            }
+
+            button{
+                text-align: center;
+            }
+
+            @keyframes spin {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+
+        </style>
+    </head>
   
-  <body>
-    hello, world!
-  </body>
+    <body>
+        <br>
+        <h1>Hello, World!</h1>
+        <div>
+            <button id="jit">A button that does nothing whatsoever</button>
+        </div>
+        <div>
+            <img id="duck" src="https://m.media-amazon.com/images/I/511Wd7ip16L._AC_UF894,1000_QL80_.jpg">
+            
+        </div>
+        <br>
+        <a href="https://vscode.dev" target="_blank"> <h2>VSCode Online Editor</h2> </a> 
+        <a href="https://a.co/d/0aqBU6ml" target="_blank"><h3>Help me buy rubber ducks</h3></a>
+        
+    </body>
+
   
 </html>
