@@ -2,41 +2,7 @@
     <head>
         <title>this is epic sauce</title>
 
-        <style>
-            h1,a{
-                text-align: center;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            }
-
-            img{
-                width: 500px;
-                
-            }
-
-            button:active {
-                animation: spin 0.5s linear forwards infinite;
-            }
-            
-            div{
-                display: flex;
-                justify-content: center;
-                margin-top: 50px;
-            }
-
-            button{
-                text-align: center;
-            }
-
-            @keyframes spin {
-                from {
-                    transform: rotate(0deg);
-                }
-                to {
-                    transform: rotate(360deg);
-                }
-            }
-            
-        </style>
+        <link href="styles.css" rel="stylesheet">
     </head>
   
     <body>
@@ -46,7 +12,7 @@
             <button id="jit">A button that does nothing whatsoever</button>
         </div>
         <div>
-            <img id="duck" src="https://m.media-amazon.com/images/I/511Wd7ip16L._AC_UF894,1000_QL80_.jpg">
+            <img id="duck" src="Images/duck.jpg">
             
         </div>
         <br>
@@ -61,10 +27,6 @@
         
     </body>
 
-    <script>
-        document.getElementById("jit").onclick = function(){
-            console.log("hello");
-        }
-    </script>
+    <script src="client.js"></script>
   
 </html>
